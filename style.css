@@ -50,10 +50,10 @@ body {
  
 table {
 	text-align: left;
-  max-width:95%;
+  max-width:99%;
+  max-height: 99%;
 	border-spacing: 10px 1rem;
 	font-size: 16px;
-  max-height: 95%;
 }
 
 img 
