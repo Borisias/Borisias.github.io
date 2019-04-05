@@ -13,6 +13,20 @@ body {
   width: 1000px;
 }
 
+table {
+  text-align: left;
+  max-width:99%;
+  max-height: 99%;
+  border-spacing: 10px 1rem;
+  font-size: 16px;
+}
+
+img 
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .cards {
   border-radius: 2px;
   display: inline-block;
@@ -47,16 +61,4 @@ body {
   margin-bottom: 10px;
 }
  
-table {
-	text-align: left;
-  max-width:99%;
-  max-height: 99%;
-	border-spacing: 10px 1rem;
-	font-size: 16px;
-}
 
-img 
-{
-    max-width: 100%;
-    max-height: 100%;
-  }
