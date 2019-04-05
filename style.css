@@ -2,7 +2,6 @@
 body {
 	font-family: Cambria;
 	font-size: 12;
-	/*text-align: justify;*/
 	background-color: #e2e1e0;
 }
 
@@ -50,8 +49,8 @@ body {
  
 table {
 	text-align: left;
-  max-width:98%;
-  max-height: 98%;
+  max-width:95%;
+  max-height: 95%;
 	border-spacing: 10px 1rem;
 	font-size: 16px;
 }
