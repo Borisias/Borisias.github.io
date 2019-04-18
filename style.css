@@ -31,8 +31,10 @@ img
 }
 .font {
   color: #9daec9;
-  font-weight: bold; 
-
+  font-weight: bold;
+}
+.font2 {
+  text-align: center;
 }
 
 .cards {
