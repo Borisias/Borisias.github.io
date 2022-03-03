@@ -1,0 +1,18 @@
+body {
+background-color: grey ;
+
+}
+
+#collapsibleNavbar .navbar-nav .nav-item a {
+color: goldenrod;
+
+}
+
+#collapsibleNavbar .navbar-nav .nav-item a:hover {
+    color: gold;
+    
+    }
+
+.main-img {
+    height: 400px;
+}

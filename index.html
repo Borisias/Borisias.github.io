@@ -1,369 +1,83 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Boris Konrad CV</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<div class="wrapper">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/got.png" alt="" height="32"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="families.html">Families</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lofai.html">Land of Fire and Ice</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Contact us</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+           <div class="modal-body">
+            <form action="/action_page.php">
+                <div class="mb-2 mt-1">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                  </div>
+                <div class="mb-2">
+                  <label for="comment">Comment:</label>
+                  <textarea class="form-control" rows="4" id="comment" name="text"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+          </div>    
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5 text-center">
+        
+          <img class="img-fluid" src="images/Game-of-Thrones-logo-640x283.png" alt="GoT" height="400">
+            <h2>Game of Thrones</h2>
+            <p>Game of Thrones is an American fantasy drama television series produced by the HBO cable network. It is based on the novel series A Song of Ice and Fire, written by George R.R. Martin, who serves as a producer, creative consultant and scriptwriter on the television series. David Benioff and D.B. Weiss created the television series and serve as executive producers, showrunners and the main writers.
+                The series consists of eight fully transmitted seasons, comprising seventy-three episodes in total.
+                Production of the series is based in Belfast, Northern Ireland, mainly at the Paint Hall Studios. It is the largest and most expensive television production ever mounted in Northern Ireland. Filming for the series has also been conducted in Malta, Iceland, Croatia, Morocco, Spain, and the USA.</p>
+            <h2>Song of Ice and Fire</h2>
+            <p>A Song of Ice and Fire is an award-winning series of best-selling books of epic fantasy novels by American author and scriptwriter George R.R. Martin. The series currently comprises five published novels with two more anticipated to bring the series to a conclusion. The fifth book, A Dance with Dragons, was published on July 12, 2011. There are also three prequel novellas set in the same world. Game of Thrones is the television adaptation of the books.</p>
+        
 
-<div class="cards card-left">
-	<div class="topcard"><strong>BORIS KONRAD</strong></div>
-	<div><img src="resources/bimage.png" alt="profile photo"></img></div>
-	<div class="topcard"><strong>PERSÖNLICHE ANGABEN</strong></div>
-		<table>
-			<tr>
-				<td><img src="resources/date48.png" title="Geburtsdatum"/></td>
-				<td>22. Dezember 1981</td>
-			</tr>
-			<tr>
-				<td><img src="resources/staats48.png" title="Staatsbürgerschaft"/></td>
-				<td>Kroatisch, Bosnisch</td>
-			</tr>
-			<tr>
-				<td><img src="resources/skype48.png" title="Adresse"/></td>
-				<td>HC 11, 71 000 Sarajevo, Bosnien und Herzegowina</td>
-			</tr>
-			<tr>
-				<td><img src="resources/phone48.png" title="Telefonnummer"/></td>
-				<td>(+387) 61 111 222</td>
-			</tr>
-			<tr>
-				<td><img src="resources/email48.png" title="E-mail"/></td>
-				<td>borkon@fakemail.com</td>
-			</tr>
-			<tr>
-				<td><img src="resources/skype48.png" title="Skype"/></td>
-				<td>boriskonrad</td>
-			</tr>
-			<tr>
-				<td><img src="resources/fuhrerschein48.png" title="Führerschein"/></td>
-				<td>Klasse B</td>
-			</tr>
-			<tr>
-				<td><img src="resources/familienstand48.png" title="Familienstand"/></td>
-				<td>Verheiratet</td>
-			</tr>
-		</table>
-</div>
+    </div>
 
-<div id="clear"></div>
-	<div class="cards card-right">
-	<div class="topcard"><strong>SCHUL- UND BERUFSBILDUNG</strong></div>
-		<table>
-			<tr>
-				<td class="font">2008 - 2010</td>
-				<td><strong>CCNA – Cisco Certified Network Associate (4 Semester)</strong></td>
-			</tr>
-			<tr>
-				<td class="font">Name der <br>Bildungsinstitution</td>
-				<td>Cisco Networking Academy, 71 000 Sarajevo, Bosnien und Herzegowina</td>
-			</tr>
-			<tr>
-				<td class="font">Hauptfächer/berufliche Fähigkeiten</td>
-				<td>Installation, Konfiguration, Verwaltung und Fehlerbehebung von Mittelklasse Netzwerken, einschließlich der Umsetzung und Überprüfung von Verbindungen zu Gegenstellen in einer WAN-Umgebung</td>
-			</tr>
-			<tr>
-			</tr>
-			<tr>
-				<td class="font">2002 - 2008</td>
-				<td><strong>Diplom-Kriminalist</strong></td>
-			</tr>
-			<tr>
-				<td class="font">Name der <br>Bildungsinstitution</td>
-				<td>Fakultät der Kriminalwissenschaften in Sarajevo, 71000 Sarajevo, Bosnien und Herzegowina</td>
-			</tr>
-			<tr>
-				<td class="font">Hauptfächer/berufliche Fähigkeiten</td>
-				<td>Kriminologie, Strafrecht, Strafprozessrecht, Verfassungsrecht, Methodologie, kriminalistischer Forschung, Soziale Pathologie usw.</td>
-				
-			</tr>
-			<tr>
-		</table>
-	</div>
-	<div class="cards card-right">
-	<div class="topcard"><strong>BERUFSERFAHRUNG</strong></div>
-		<table>
-			<tr>
-				<td class="font">Projekt-Assistent</td>
-				<td align="right" class="font">November 2013 bis Heute</td>
-			</tr>
-			<tr>
-				<td colspan="2">CPRC - Criminal Policy Research Centre (Forschungszentrum für Kriminalitätspolitik), www.cprc.ba, Pruscakova 27, 71 000 Sarajevo
-				</td>
-			</tr>
-			<tr>
-			</tr>
-			<tr>
-				<td colspan="2"><strong>Hauptaufgaben:</strong>
-											<ul>
-												<li>Technische und Logistische Unterstützung bei dem UNICEF Projekt „Gerechtigkeit für jedes Kind“</li>
-												<li>Übersetzung von Dokumenten (Bosnisch-Englisch, Englisch-Bosnisch)</li>
-												<li>IT-Support</li>
-												<li>Protokollführung</li>
-												<li>Verfassen von Nachrichten auf der offiziellen Web Seite von CPRC Teilnahme an verschiedenen Ausbildungen und Experten Meetings für Implementierung und Durchführung von „Gesetz über den Schutz und die Behandlung von Kindern und Jugendlichen in der Strafprozessordnung“</li>
-											</ul>
-				</td>
-			</tr>
-			<tr>
-				<td colspan="2"><strong>Nebenaufgaben:</strong>
-											<ul>
-												<li>Technische und Logistische Unterstützung bei anderen CPRC Projekten,</li>
-												<li>Teilnahme an verschiedenen Konferenzen, „Round Tables“ und Expertenmeetings für die neue Anti-Korruptions-Gesetzgebung in der  Föderation von Bosnien und Herzegowina</li>
-												<li>Technischer Assistent auf dem Projekt: „Stärkung der Kapazitäten der Strafverfolgungsbehörden in der Föderation von Bosnien und Herzegowina bei der Bekämpfung der Korruption“</li>
-											</ul>
-				</td>
-			</tr>
-			<tr>
-				<td colspan="2"><strong>Zusätzliche Aufgaben:</strong>
-											<ul>
-												<li>Technische und Logistische Unterstützung von Partnerorganisation: „Emmaus International“</li>
-												<li>IT-Support und Web-Assistent </li>
-												<li>Übersetzung (Bosnisch – Englisch - Deutsch)</li>
-											</ul>
-				</td>
-			</tr>
-			<tr>
-				<td colspan="2" class="font">NGO - Nichtregierungsorganisation</td>
-			</tr>
-		</table>
-	</div>
-	<div class="cards card-right">
-		<table>
-			<tr>
-				<td class="font">Projekt-Assistent</td>
-				<td align="right" class="font">April 2013 – September 2013</td>
-			</tr>
-			<tr>
-				<td colspan="2">ForSa Sarajevo und Roma-Gemeinschaft „ Romalen“(von IOM finanziert), Senoina 10, Sarajevo/ Alije Izetbegovica bb, Kakanj
-				</td>
-			</tr>
-			<tr>
-			</tr>
-			<tr>
-				<td colspan="2"><strong>Hauptaufgaben:</strong>
-											<ul>
-												<li>Durchführung von Außendienstarbeit</li>
-												<li>Unterstützung bei der Projektdurchführung</li>
-												<li>Erstellung von Projektberichten</li>
-												<li>Suche nach weiteren Außendienstmitarbeitern und ihre Organisation</li>
-												<li>Hilfe für Außendienstmitarbeiter bei der Identifizierung angemessener Anwender des Projekts</li>
-											</ul>
-				</td>
-			</tr>
-			<tr>
-				<td colspan="2" class="font">NGO - Nichtregierungsorganisation</td>
-			</tr>
-		</table>
-	</div>
-	<div class="cards card-right">
-		<table>
-			<tr>
-				<td class="font">IT Support</td>
-				<td align="right" class="font">Februar 2012 – Februar 2013</td>
-			</tr>
-			<tr>
-				<td colspan="2">europroNET Bosnia d.o.o. Fra Andjela Zvizdovica 1,  71 000 Sarajevo</td>
-			</tr>
-			<tr>
-			</tr>
-			<tr>
-				<td colspan="2"><strong>Hauptaufgaben:</strong>
-											<ul>
-												<li>Telefonische Unterstützung und Außendienstarbeit</li>
-												<li>Systemüberwachung</li>
-												<li>Diagnose und Fehlerbehebung im Anwendernetzwerk/ISP Netzwerk</li>
-												<li>Konfiguration von verschiedenen Netzwerkgeräten (Router, Switch…)</li>
-											</ul>
-				</td>
-			</tr>
-			<tr>
-				<td colspan="2" class="font">ISP - Internet Service Provider</td>
-			</tr>
-		</table>
-	</div>
-	<div class="cards card-right">
-		<table>
-			<tr>
-				<td class="font">Bildbearbeiter</td>
-				<td align="right" class="font">März 2011 – Dezember 2011</td>
-			</tr>
-			<tr>
-				<td colspan="2">Purple Key, Grawe Centre, Trg Solidarnosti 2, 71 000 Sarajevo</td>
-			</tr>
-			<tr>
-			</tr>
-			<tr>
-				<td colspan="2"><strong>Hauptaufgaben:</strong>
-											<ul>
-												<li>Retusche</li>
-												<li>Digitale Fotobearbeitung und Manipulation</li>
-											</ul>
-				</td>
-			</tr>
-			<tr>
-				<td colspan="2"><strong>Nebenaufgaben:</strong>
-											<ul>
-												<li>System Administrator Assistent</li>
-												<li>Hardware Support</li>
-											</ul>
-				</td>
-			</tr>
-			<tr>
-				<td colspan="2" class="font">Digitale Bildbearbeitung, Retusche, Fotomanipulation</td>
-			</tr>
-		</table>
-	</div>
-	<div class="cards card-right">
-	<table>
-		<tr>
-			<td class="font">Telefon Interviewer, Paneldaten Operator, Administration</td>
-			<td align="right" class="font">April 2008 – August 2009</td>
-		</tr>
-		<tr>
-			<td colspan="2">GFK – Growth for Knowledge, Skenderija 44, 71 000 Sarajevo</td>
-		</tr>
-		<tr>
-		</tr>
-		<tr>
-			
-			<td><strong>Hauptaufgaben:</strong>
-							<ul>
-								<li>Telefon Interviews</li>
-								<li>Infield Interviews</li>
-								<li>Haushaltspanel Dateneingabe </li>
-								<li>Administrative Arbeit</li>
-							</ul>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2" class="font">Marktforschungsagentur</td>
-		</tr>
-	</table>
-</div>
-	<div class="cards card-right">
-	<div class="topcard"><strong>PERSÖNLICHE FÄHIGKEITEN</strong></div>
-		<table>
-			<tr>
-				<td class="font" style="width: 25%">Muttersprache(n)</td>
-				<td class="font2">Bosnisch</td>
-			</tr>
-			<tr>
-			</tr>
-			<tr>
-				<td class="font">Weitere Sprache(n)</td>
-				<td class="font2">VERSTEHEN</td>
-				<td class="font2">SPRECHEN</td>
-				<td class="font2">SCHREIBEN</td>
-			</tr>
-			<tr>
-				<td>Deutsch</td>
-				<td class="font2">Sehr Gut</td>
-				<td class="font2">Sehr Gut</td>
-				<td class="font2">Sehr Gut</td>
-			</tr>
-			<tr>
-				<td>Englisch</td>
-				<td class="font2">Sehr Gut</td>
-				<td class="font2">Gut</td>
-				<td class="font2">Sehr Gut</td>
-			</tr>
-			<tr>
-			</tr>
-			<tr>
-				<td class="font">Soziale<br>Kompetenzen</td>
-				<td colspan="3">
-					<ul>
-						<li>Kommunikationsfähigkeit</li>
-						<li>Kontaktfähigkeit</li>
-						<li>Positiv und unterstützend</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-			</tr>
-			<tr>
-				<td class="font">Organisatorische Kompetenzen</td>
-				<td colspan="3">
-					<ul>
-						<li>Selbst motiviert</li>
-						<li>Analytische Fähigkeiten</li>
-						<li>Arbeiten unter Druck und kurzen Fristen</li>
-						<li>Verantwortlich</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-			</tr>
-			<tr>
-				<td class="font">EDV Kenntnisse</td>
-				<td colspan="3">
-					<ul>
-						<li>Microsoft Office (Word, Excel, Power Point, Publisher)</li>
-						<li>Erfahrung mit Windows 98 bis 10</li>
-						<li>Photoshop , Digitale Bildbearbeitung</li>
-						<li>Grundkenntnisse in Corel Draw</li>
-						<li>Grundkenntnisse in IBM SPSS  Statistics</li>
-						<li>Grundkenntnisse in Corel Draw</li>
-						<li>Grundkenntnisse in Web Design (HTML, CSS)</li>
-						<li>Installation und Betrieb kleiner Netzwerke – Systemadministration</li>
-					</ul>
-				</td>
-			</tr>
-		</table>
-	</div>
-	<div class="cards card-right">
-	<div class="topcard"><strong>ANDERE BESCHÄFTIGUNGEN UND KURZPROJEKTE</strong></div>
-		<table>
-			<tr>
-				<td class="font" style="width: 25%">Oktober 2013</td>
-				<td>Zensus – Volkszählung in Bosnien und Herzegowina 2013
-					<ul>
-						<li>Infield Interviews</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-			</tr>
-			<tr>
-				<td class="font">Oktober 2012</td>
-				<td>Lokalwahlen Bosnien und Herzegowina
-					<ul>
-						<li>Zählung</li>
-						<li>Kontrolle der Daten</li>
-					</ul>
-				</td>
-			</tr>
-		</table>
-	</div>
-	<div class="cards card-right">
-	<div class="topcard"><strong>KONTAKTPERSONEN - REFERENZEN</strong></div>
-		<table>
-			<tr>
-				<td class="font" style="width: 25%">Amela E.</td>
-				<td>IFS-Emmaus Sarajevo, Emmaus Direktor/CPRC Projekt Officer<br>E-Mail: a@mfs-emmaus.ba</td>
-			</tr>
-			<tr>
-				<td class="font">Mirza P.</td>
-				<td>ForSa Sarajevo, Projekt-Koordinator<br>E-Mail: mp@gmail.com</td>
-			</tr>
-			<tr>
-				<td class="font">Ismir B.</td>
-				<td>europroNET d.o.o. Bosnia, CTO<br>E-Mail: i.b@europronet.ba</td>
-			</tr>
-			<tr>
-				<td class="font">Elmedin M.</td>
-				<td>Criminal Policy Research Centre, Projekt Leiter<br>E-Mail: em@cprc.ba</td>
-			</tr>
-			<tr>
-				<td class="font">Predrag P.</td>
-				<td>Criminal Policy Research Centre, CPRC Direktor<br>E-Mail: pp@cprc.ba</td>
-			</tr>
-		</table>
-	</div>
+
+
+
+
+
+
+
+
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
-
-
-
-
 </html>
