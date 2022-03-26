@@ -2,10 +2,10 @@ let email = document.getElementById("email");
 let subject = document.getElementById("subject");
 let comment = document.getElementById("comment")
 let btnSubmit = document.getElementById("btn-submit")
-let emailValid = false
-let commentValid = false
-let subjectValid = false
-//validation() is need for disabling and enabling button
+let emailValid = false      //  All 3 are used as switches
+let commentValid = false    //  in order for the function validation()
+let subjectValid = false    //  to work on all 3 input fields
+
 validation()
 
 email.addEventListener("blur", (e) => {
@@ -63,7 +63,7 @@ comment.addEventListener("blur", (e) => {
     validation()
 })
 
-function validation(){
+function validation(){                  //validation() function is need for disabling and enabling button
     if (emailValid && commentValid && subjectValid == true) {
         btnSubmit.disabled = false
     }
