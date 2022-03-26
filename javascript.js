@@ -5,7 +5,7 @@ let btnSubmit = document.getElementById("btn-submit")
 let emailValid = false
 let commentValid = false
 let subjectValid = false
-
+//validation() is need for disabling and enabling button
 validation()
 
 email.addEventListener("blur", (e) => {
